@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #0e1012;
+  padding: 2%;
+}
+
+.logo {
+  color: #ff3e44;
+  font-size: 40px;
+}
