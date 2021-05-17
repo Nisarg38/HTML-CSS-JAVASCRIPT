@@ -7,20 +7,21 @@
     <title>Contact Form</title>
 </head>
 <body>  
-    <div>
+    <form id="form">
         <div>
-            <h3 class="first-name-text">First Name</h3>
+            <h3 class="first-name-text" id="first-name">First Name</h3>
             <input type="text" class="first-name-input" placeholder="First name"/>
             <h3 class="last-name-text">Last Name</h3>
             <input type="text" class="last-name-input" placeholder="Last name"/>
             <h3 class="email-text">Email Id</h3>
             <input type="text" class="email-input" placeholder="Email id"/>
             <h3 class="msg-text">Message</h3>
-            <textarea class="msg-input" placeholder="Your message is.."></textarea>
+            <textarea class="msg-input" id="submit" placeholder="Your message is.."></textarea>
             <button type="submit">Submit</button>
             
         </div>
 
-    </div>
+    </form>
+    <script src="validation.js"></script>
 </body>
 </html>
